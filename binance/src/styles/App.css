@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,500&display=swap');
+*{
+  font-size: 14px;
+  font-family: 'Source Sans 3', sans-serif;
+  
+}
+
+
+.binance-logo{
+  margin: 0px;
+  min-width: 0px;
+  font-size: 24px;
+  fill:#F0B90B;
+  width: 120px;
+  height: 24px;
+  color: #F0B90B;
+}
+
+.css-6px2js {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: #111;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  fill: rgb(255, 255, 255);
+}
+
+/* .navbar-light .navbar-toggler-icon {
+  background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+} */
+
+#offcanvasNavbarDark{
+  background-color: rgb(30, 35, 41);
+
+}
+
+#offcanvasNavbarLight{
+  background-color: #fff;
+}
+
+.btn-close:focus{
+  box-shadow: none;
+}
+/* 
+.mobTog{
+
+    }
+
+.mobTog:hover{
+  background-color: rgb(43, 49, 57);
+} 
+.mobTog:hover *  {
+      color: rgb(240, 185, 11);
+      
+  }  
+   */
+.biLogo{
+  width: 24px;
+  color: rgb(112, 122, 138);
+}
+
+.mobile-toggle-dark{
+  box-sizing: border-box;
+  min-width: 0px;
+  cursor: pointer;
+  appearance: none;
+  margin: 0px;
+  padding: 0px;
+  width: 40px;
+  height: 24px;
+  color: rgb(71, 77, 87);
+  background-color: rgb(71, 77, 87);
+  border: none;
+  border-radius: 9999px;
+  transition-property: background-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.mobile-toggle-light {
+  box-sizing: border-box;
+  min-width: 0px;
+  cursor: pointer;
+  appearance: none;
+  margin: 0px;
+  padding: 0px;
+  width: 40px;
+  height: 24px;
+  color: rgb(234, 236, 239);
+  background-color: rgb(234, 236, 239);
+  border: none;
+  border-radius: 9999px;
+  transition-property: background-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.css-ahjq13 {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: rgb(112, 122, 138);
+  font-size: 14px;
+  fill: rgb(112, 122, 138);
+  width: 1em;
+  height: 1em;
+}
+
+
+
+.css-8sesaq {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: rgb(132, 142, 156);
+  font-size: 14px;
+  fill: rgb(132, 142, 156);
+  width: 1em;
+  height: 1em;
+}
+
+.icon-bg{
+  box-sizing: border-box;
+  margin: 0px 3px;
+  min-width: 0px;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  box-shadow: rgb(20 21 26 / 4%) 0px 1px 2px, rgb(71 77 87 / 4%) 0px 3px 6px, rgb(20 21 26 / 10%) 0px 0px 1px;
+  background-color: rgb(255, 255, 255);
+  transition-property: transform, border-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.togInput{
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: none;
+}
+
+.sun-icon{
+  width: 1.2em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sun-icon:hover{
+  color: #F0B90B;
+}
+.moon-icon{
+  width: 1.2em;
+  color: #111;
+  cursor: pointer;
+}
+
+.moon-icon:hover{
+  color: #F0B90B;
+}
+.desktop-nav{
+  display: none;
+  background: transparent;
+  border: transparent;
+}
+
+.desktop-nav h4{
+  display: block;
+  margin: auto 0;
+  font-size: 14px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+.desktop-nav h4:hover
+{
+  color: #F0B90B;
+}
+
+.desktop-toggle{
+  background: transparent;
+  border: transparent;
+}
+
+.mobile-nav{
+  display: block;
+}
+
+.header{
+  padding: 10px;
+  margin: 0;
+  min-width: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.btn-close {
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: 0.25em 0.25em;
+  color: #c2c5ca !important;
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: .5;
+  
+}
+.btn-close:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0 rgb(13 110 253 / 25%) !important;
+  opacity: 1;
+  
+}
+
+
+
+
+
+@media screen and (min-width: 769px){
+  body{
+    padding: 15px;
+  }
+  .desktop-nav{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: transparent;
+    padding: 0 10px;
+  }
+ 
+
+  .mobile-nav{
+    display: none;
+  }
+  .navbar-light .navbar-toggler {
+   display: none;
+}
+
+  #offcanvasNavbarDark{
+    display: none;
+    visibility: hidden;
+    background-color: rgb(30, 35, 41);
+  
+  }
+  
+  #offcanvasNavbarLight{
+    display: none;
+    visibility: hidden;
+    background-color: #fff;
+  }
+}

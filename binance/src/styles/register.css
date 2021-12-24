@@ -1,0 +1,208 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.header{
+    display: flex;
+}
+
+ .regTitle{
+        box-sizing: border-box;
+        margin: 0;
+        min-width: 0;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 16px;
+}
+
+ .LogTitle{
+        box-sizing: border-box;
+        margin: 0;
+        min-width: 0;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 16px;
+}
+
+.regPara{
+    margin: 0 0 10px;
+    min-width:0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.LogPara{
+    margin: 0 0 10px;
+    min-width:0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.veri-text{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.padLock {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    color: #0ECB81;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    fill: #1E2329;
+    fill: #0ECB81;
+    width: 1em;
+    height: 1em;
+    margin-right: 4px;
+}
+
+.css-8je8zh-MuiTouchRipple-root {
+    overflow: unset;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 100px;
+}
+
+.nav-link {
+    color: rgb(132, 142, 156) !important;
+    font-weight: 500 !important;
+
+}
+
+
+
+
+
+.openRef{
+    box-sizing: border-box;
+    margin: 0px 0px 4px;
+    min-width: 0px;
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.innerDiv{
+    width: 390px !important;
+    margin: 20px auto !important;
+}
+.innerDiv-two{
+    width: 400px !important;
+    margin: 20px auto !important;
+}
+
+.terms{
+    text-decoration: none;
+    color:rgb(240, 185, 11);
+
+}
+.terms:hover{
+    text-decoration: underline;
+    color:rgb(240, 185, 11);
+
+}
+
+.checkBoxes{
+    background: rgba(40,40,40,0.2);
+}
+
+.checkBoxes:checked{
+    background: rgb(240, 185, 11, 0.7);
+}
+
+.regFoot{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B7BDC6;
+    text-align: center;
+    padding: 12px;
+}
+
+.dropDownIcon {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: currentcolor;
+    font-size: 24px;
+    fill: currentcolor;
+    width: 1em;
+    height: 1em;
+}
+
+
+.forgot-pwd{
+    font-weight: 500;
+    text-decoration: none;
+    color:rgb(240, 185, 11);
+}
+
+.forgot-pwd:hover{
+    text-decoration: underline;
+    color:rgb(240, 185, 11);
+
+}
+
+.QR{
+    width: 180px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.QR-container{
+display: none;
+}
+
+.BMobileApp{
+    cursor: pointer;
+    color: rgb(240, 185, 11);
+}
+.BMobileApp:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 769px){
+    .QR-container{
+        display: block;
+        width: 282px;
+        margin-right: 0px;
+        margin: auto 0;
+        }
+}
+
+@media screen and (min-width: 933px){
+    .QR-container{
+        display: block;
+        width: 282px;
+        margin: auto 0;
+        margin-right: 200px;
+        }
+
+    .QR{
+        width: 180px;
+        border: 10px solid #fff;
+        margin: 0 auto;
+        border-radius: 4px;
+    }
+}
